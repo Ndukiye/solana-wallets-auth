@@ -25,7 +25,7 @@ const App = () => {
       let response = await  window.solfare.connect();
       console.log("Solflare Connected successfully!!")
       console.log(
-        'Connected to Solfare wallet with Public Key:',
+        'Connected to Solflare wallet with Public Key:',
         response.publicKey.toString()
       );
      }else{
